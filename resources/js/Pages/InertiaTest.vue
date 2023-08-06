@@ -1,6 +1,6 @@
 <script setup>
 import { Link } from "@inertiajs/inertia-vue3";
-import { ref } from "vue";
+import { ref } from "vue"; //リアクティブ
 
 const newTitle = ref("");
 const newContent = ref("");
